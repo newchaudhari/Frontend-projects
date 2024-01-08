@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+background-color: #8ecae6;
+color: black;
+margin: 1rem 0;
+
+}
+.container {
+    background-color: #FEFAE0;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vmin;
+    width: 50vmin;
+    padding: 2rem;
+    margin: 2rem;
+    border: 2px solid black;
+    border-radius: 0.75rem;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* border: 2px solid green; */
+
+}
+
+#search-button {
+    background-color: purple;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0.5rem 0.5rem;
+    margin: 1rem 1rem;
+    width: 45%;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  
+}
+
+form input {
+    /* margin-right: 1rem; */
+    padding: 0.75rem 0.75rem;
+    font-size: 1em;
+    width: 75%;
+    margin: 0.6rem 0.6rem;
+    background-color: antiquewhite;
+    border: 2px solid gray;
+    border-radius: 0.7rem;
+}
+
+.dictionary {
+
+    font-size: 1.50rem;
+    text-align: center;
+    font-weight: bold;
+   
+
+}
