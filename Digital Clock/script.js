@@ -5,14 +5,14 @@ const sec = document.getElementById("sec");
 setInterval(() => {
   let currentTime = new Date();
 
-  // if we want time in 12 hour format use this function instead of currentTime.gethours()
-  //   let hours = () => {
-  //     if (currentTime.getHours() > 12) {
-  //       return currentTime.getHours() - 12;
-  //     } else {
-  //       return currentTime.getHours();
-  //     }
-  //   };
+  /* if we want time in 12 hour format use this function instead of currentTime.gethours()
+     let hours = () => {
+      if (currentTime.getHours() > 12) {
+         return currentTime.getHours() - 12;
+       } else {
+         return currentTime.getHours();
+     }
+     }; */
 
   hrs.innerHTML =
     (currentTime.getHours() < 10 ? "0" : "") + currentTime.getHours();
